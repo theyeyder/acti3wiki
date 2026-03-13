@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Creatividad | Más Allá del Chip</title>
+    <link rel="stylesheet" href="styles/Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-lightbulb"></i>
+                <span>Creatividad<span class="accent">Lab</span></span>
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#articulo">Artículo</a></li>
+                <li><a href="#autores">Autores</a></li>
+                <li><a href="#referencias">Referencias</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-tag">Artículo de Opinión</span>
+                <h1>Más Allá del Chip</h1>
+                <p class="hero-subtitle">Estrategias para Convertir la Creatividad en un Manantial Inagotable de Ideas</p>
+                <div class="hero-meta">
+                    <span><i class="far fa-calendar-alt"></i> <span id="currentDate"></span></span>
+                    <span><i class="far fa-clock"></i> 8 min de lectura</span>
+                    <span><i class="far fa-user"></i> Equipo Colaborativo</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#articulo" class="btn btn-primary">Leer Artículo <i class="fas fa-arrow-right"></i></a>
+                    <a href="#autores" class="btn btn-outline">Conocer Autores</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <i class="fas fa-brain"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artículo Principal -->
+    <section id="articulo" class="article-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Artículo de Opinión</span>
+                <h2>Más Allá del Chip: Estrategias para Convertir la Creatividad en un Manantial Inagotable de Ideas</h2>
+                <div class="author-line">
+                    <span><i class="far fa-user-circle"></i> Autores: <strong id="autoresPlaceholder">[Nombres de los integrantes del equipo]</strong></span>
+                    <span><i class="far fa-calendar-check"></i> Fecha: <strong id="fechaPlaceholder">[Fecha de entrega]</strong></span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <!-- Introducción -->
+                <div class="article-card intro-card">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Introducción</h3>
+                    <p>En un mundo empresarial y personal que cambia a la velocidad de la luz, la creatividad ha dejado de ser un don reservado para artistas e inventores. Como bien plantea Manel Rajadell (2019) en su obra <em>Creatividad: Emprendimiento y mejora continua</em>, la creatividad es el <span class="highlight">"motor principal del desarrollo personal y base del progreso de toda cultura"</span>.</p>
+                    <p>Sin embargo, frente a la pregunta de cómo aumentar la creatividad para volverse una fuente inagotable de ideas, a menudo surge el mito de la inspiración repentina. Este artículo de opinión, construido de forma colaborativa, sostiene que la creatividad no es un relámpago en la oscuridad, sino <strong>un músculo que se entrena, un hábito que se cultiva y un entorno que se diseña</strong>. A partir de las reflexiones de Rajadell (2019) y otras perspectivas, exploraremos las claves para desbloquear ese potencial.</p>
+                </div>
+
+                <!-- Desarrollo -->
+                <h3 class="section-subtitle"><i class="fas fa-dumbbell"></i> El Entrenamiento del Músculo Creativo</h3>
+
+                <!-- Punto 1 -->
+                <div class="article-card">
+                    <div class="card-number">1</div>
+                    <h4>Rompiendo el Mito del "Eureka"</h4>
+                    <p>En nuestra opinión como equipo, el primer paso para aumentar la creatividad es desterrar la idea de que las ideas llegan por arte de magia. Rajadell (2019) nos invita a entender la creatividad como un proceso que puede ser estimulado. Coincidimos plenamente con el autor en que no se trata de esperar, sino de <span class="highlight">provocar</span>. Si queremos ser una fuente inagotable de ideas, debemos pasar de una actitud pasiva a una activa. La creatividad no es un evento; es una práctica diaria.</p>
+                </div>
+
+                <!-- Punto 2 -->
+                <div class="article-card">
+                    <div class="card-number">2</div>
+                    <h4>La "Dieta Mental" y la Curiosidad como Combustible</h4>
+                    <p>Una de las reflexiones más poderosas que extraemos de la lectura es la importancia de la materia prima. Para generar ideas, primero debemos nutrir nuestra mente. Así como un atleta cuida su alimentación, un creativo debe cuidar su "dieta mental". No podemos esperar producir ideas originales si solo consumimos contenido superficial. Es necesario adoptar una actitud de curiosidad insaciable:</p>
+                    
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <i class="fas fa-book-open"></i>
+                            <h5>Leer de todo</h5>
+                            <p>No solo de nuestra área de expertise, sino explorar filosofía, ciencia ficción o historia. Como sugiere Rajadell (2019), el conocimiento diverso es el caldo de cultivo de la innovación.</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-eye"></i>
+                            <h5>Observar el entorno</h5>
+                            <p>Muchas veces las soluciones más brillantes están en la naturaleza o en la resolución de problemas cotidianos de otros.</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-comments"></i>
+                            <h5>Hablar con personas diferentes</h5>
+                            <p>Salir de la cámara de eco para escuchar perspectivas que desafíen nuestras creencias.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Punto 3 -->
+                <div class="article-card">
+                    <div class="card-number">3</div>
+                    <h4>Técnicas para Provocar la Creatividad (Más Allá del Brainstorming)</h4>
+                    <p>Rajadell (2019) menciona que el libro incluye <span class="highlight">"herramientas útiles para despertar ideas y generar propuestas de mejora"</span>. En nuestra opinión, estas herramientas son esenciales para sistematizar la creatividad. No podemos esperar a que las ideas fluyan solas; debemos aplicar técnicas que las fuercen a salir.</p>
+                    
+                    <div class="techniques-grid">
+                        <div class="technique-card">
+                            <i class="fas fa-sitemap"></i>
+                            <h5>Mapas Mentales</h5>
+                            <p>Permiten visualizar conexiones que a simple vista no existen, organizando el pensamiento de forma radial y no lineal.</p>
+                        </div>
+                        <div class="technique-card">
+                            <i class="fas fa-random"></i>
+                            <h5>Pensamiento Lateral (De Bono)</h5>
+                            <p>Romper la lógica habitual para abordar un problema desde ángulos absurdos o poco convencionales.</p>
+                        </div>
+                        <div class="technique-card">
+                            <i class="fas fa-cubes"></i>
+                            <h5>Técnica SCAMPER</h5>
+                            <p>Preguntar: ¿Sustituir? ¿Combinar? ¿Adaptar? ¿Modificar? ¿Poner en otro uso? ¿Eliminar? ¿Reordenar?</p>
+                        </div>
+                        <div class="technique-card">
+                            <i class="fas fa-ban"></i>
+                            <h5>Restricciones Creativas</h5>
+                            <p>Imponer límites puede disparar la creatividad al obligarnos a encontrar soluciones ingeniosas dentro de un marco acotado.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Punto 4 -->
+                <div class="article-card">
+                    <div class="card-number">4</div>
+                    <h4>El Entorno y el Hábito: Los Grandes Olvidados</h4>
+                    <p>A menudo se subestima el poder del entorno. Un espacio de trabajo monótono, ruidoso o desordenado puede ser el mayor asesino de la creatividad. Parte de aumentar nuestra creatividad implica diseñar un entorno que nos inspire: un lugar ordenado, con elementos que despierten los sentidos, o incluso cambiar de escenario para "resetear" la mente.</p>
+                    <p>Pero el factor más crítico, y donde coincidimos plenamente con la filosofía de la mejora continua que subyace en el libro de Rajadell (2019), es la <span class="highlight">rutina</span>. Irónicamente, la creatividad necesita de la disciplina. Establecer un hábito diario de "hora creativa", así sea para escribir, dibujar o simplemente pensar sin distracciones, crea las condiciones para que las ideas aparezcan. La motivación va y viene; el hábito es lo que sostiene el proceso.</p>
+                </div>
+
+                <!-- Conclusión -->
+                <div class="article-card conclusion-card">
+                    <div class="card-icon">
+                        <i class="fas fa-flag-checkered"></i>
+                    </div>
+                    <h3>Conclusión</h3>
+                    <p>Aumentar la creatividad hasta convertirnos en una fuente inagotable de ideas no es un destino, sino un viaje de cultivo personal y colectivo. No se trata de esperar a que el "chip" creativo se active mágicamente, sino de encenderlo nosotros mismos a través de la acción.</p>
+                    <p>Como equipo, concluimos que la respuesta a la pregunta inicial se construye con <strong>tres pilares fundamentales</strong> basados en la obra de Rajadell (2019):</p>
+                    <div class="pillars">
+                        <div class="pillar">
+                            <span class="pillar-number">1</span>
+                            <p>Alimentar la mente con diversidad</p>
+                        </div>
+                        <div class="pillar">
+                            <span class="pillar-number">2</span>
+                            <p>Aplicar técnicas sistemáticas de ideación</p>
+                        </div>
+                        <div class="pillar">
+                            <span class="pillar-number">3</span>
+                            <p>Disciplinarse en la práctica diaria</p>
+                        </div>
+                    </div>
+                    <p class="conclusion-quote">"La creatividad inagotable no es de quienes tienen mejores ideas, sino de quienes crean las mejores condiciones para que esas ideas germinen."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Autores Section -->
+    <section id="autores" class="authors-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Equipo</span>
+                <h2>Autores Colaborativos</h2>
+                <p>Este artículo fue construido de manera colectiva por:</p>
+            </div>
+
+            <div class="authors-grid" id="authorsGrid">
+                <!-- Los autores se generarán dinámicamente con JS -->
+            </div>
+
+            <div class="add-author-card">
+                <h4><i class="fas fa-user-plus"></i> Añadir autor al equipo</h4>
+                <div class="add-author-form">
+                    <input type="text" id="authorName" placeholder="Nombre del autor" class="author-input">
+                    <input type="text" id="authorRole" placeholder="Rol / Contribución" class="author-input">
+                    <button id="addAuthorBtn" class="btn btn-primary">Añadir</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Referencias -->
+    <section id="referencias" class="references-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Bibliografía</span>
+                <h2>Referencias Bibliográficas</h2>
+            </div>
+
+            <div class="references-card">
+                <div class="reference-item">
+                    <span class="ref-number">[1]</span>
+                    <p>Rajadell Carreras, M. (2019). <em>Creatividad: Emprendimiento y mejora continua</em>. Editorial Reverté.</p>
+                </div>
+                <div class="reference-note">
+                    <p><i class="fas fa-info-circle"></i> Normas APA 7ª edición</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Creatividad<span class="accent">Lab</span></span>
+                    </div>
+                    <p>Espacio colaborativo para la exploración de la creatividad y la innovación en el emprendimiento.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#articulo">Artículo</a></li>
+                        <li><a href="#autores">Autores</a></li>
+                        <li><a href="#referencias">Referencias</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Compartir</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Blog Creatividad - Artículo de Opinión Colaborativo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de ir arriba -->
+    <button id="scrollTopBtn" class="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
